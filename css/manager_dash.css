@@ -1,0 +1,106 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.graph{
+	position:absolute;
+	left: 230px;
+	top: 120px;
+	width: 550px;
+	height: 250px;
+}
+
+dt { 
+float: left;
+padding: 4px; 
+font-family: �Lucida Sans Unicode�, �Lucida Grande�, sans-serif;
+color: white; 
+}
+dd {
+margin-left: 100px; 
+font-family: Helvetica, Arial; font-size: 12px;
+}
+.bar {
+margin-bottom: 10px;
+color: #fff;
+padding: 4px;
+text-align: center;
+background: -webkit-gradient(linear, left top, left bottom, from(#ff7617), to(#ba550f));
+background-color: #ff7617;
+border-radius: 2px;
+-webkit-animation-name:bar;
+-webkit-animation-duration:0.5s;
+}
+
+#data-one { -webkit-animation-name:bar-one; }
+#data-two { -webkit-animation-name:bar-two; }
+#data-three { -webkit-animation-name:bar-three; }
+#data-four { -webkit-animation-name:bar-four; }
+
+@-webkit-keyframes bar-one {
+0% { width:0%; }
+100% { width:60%; }
+}
+
+@-webkit-keyframes bar-two {
+0% { width:0%; }
+100% { width:80%; }
+}
+
+@-webkit-keyframes bar-three {
+0% { width:0%; }
+100% { width:64%; }
+}
+
+@-webkit-keyframes bar-four {
+0% { width:0%; }
+100% { width:97%; }
+}
+h2{
+color: white;
+font-family: Helvetica, Arial; 
+}
+
+
+.shop_list
+{
+	overflow-y:auto;
+	position:absolute;
+ 	top:120px;
+	left:800px;
+	width:450px;
+	height: 300px;
+	color:white
+	box-shadow: 1px 2px 60px  black;
+	padding: 20px 30px;
+	background: #2F2F2F;
+	color:white;
+	text-align:center;
+	font-family: �Lucida Sans Unicode�, �Lucida Grande�, sans-serif;
+}
+.Testimonials2
+{
+	overflow-y:auto;
+	position:absolute;
+	top:520px;
+	left:360px;
+	width:800px;
+	height: 200px;
+	color:white;
+	box-shadow: 1px 2px 60px  black;
+	padding: 20px 30px;
+	background: #2F2F2F;
+	color:white;
+	text-align:center;
+	font-family: �Lucida Sans Unicode�, �Lucida Grande�, sans-serif;
+}
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+table th
+ {
+   background: #ff471a;
+}
